@@ -127,7 +127,7 @@
     footer {
         width: 100vw;
         position: absolute;
-        bottom: 0;
+        bottom: 4px;
         font-size: 12px;
         font-weight: 300;
         color: hsl(0, 36%, 70%);
@@ -139,7 +139,7 @@
     }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 750px) {
     #mobileContainer {
         #logo {
             margin: 2vh 4vh;
