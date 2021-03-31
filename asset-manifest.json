@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/base-apparel-coming-soon/static/css/main.c851d941.chunk.css",
+    "main.css": "/base-apparel-coming-soon/static/css/main.ca4291b8.chunk.css",
     "main.js": "/base-apparel-coming-soon/static/js/main.dcff2da5.chunk.js",
     "main.js.map": "/base-apparel-coming-soon/static/js/main.dcff2da5.chunk.js.map",
     "runtime-main.js": "/base-apparel-coming-soon/static/js/runtime-main.607e64b5.js",
@@ -10,7 +10,7 @@
     "static/js/3.0ced4edb.chunk.js": "/base-apparel-coming-soon/static/js/3.0ced4edb.chunk.js",
     "static/js/3.0ced4edb.chunk.js.map": "/base-apparel-coming-soon/static/js/3.0ced4edb.chunk.js.map",
     "index.html": "/base-apparel-coming-soon/index.html",
-    "static/css/main.c851d941.chunk.css.map": "/base-apparel-coming-soon/static/css/main.c851d941.chunk.css.map",
+    "static/css/main.ca4291b8.chunk.css.map": "/base-apparel-coming-soon/static/css/main.ca4291b8.chunk.css.map",
     "static/js/2.cee8016d.chunk.js.LICENSE.txt": "/base-apparel-coming-soon/static/js/2.cee8016d.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/base-apparel-coming-soon/static/media/JosefinSans-SemiBold.4cf45d1d.ttf",
     "static/media/mobile.scss": "/base-apparel-coming-soon/static/media/bg-pattern-desktop.964ebd4d.svg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.607e64b5.js",
     "static/js/2.cee8016d.chunk.js",
-    "static/css/main.c851d941.chunk.css",
+    "static/css/main.ca4291b8.chunk.css",
     "static/js/main.dcff2da5.chunk.js"
   ]
 }
