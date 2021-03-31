@@ -39,9 +39,9 @@ function Mobile() {
             <img id="heroMobile" src={heroMobile} alt="hero"/>
             <div id="contentMobile">
                 <h1 id="comingSoonMobile">
-                    <span>We're</span> <br/>
-                    coming <br/>
-                    soon <br/>
+                    <span>We're</span><br/>
+                    coming<br/>
+                    soon<br/>
                 </h1>
                 <p id="messageMobile">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
                 <form ref={formMobile} id="formMobile">
