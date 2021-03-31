@@ -57,6 +57,13 @@ function Mobile() {
                     <p>Please provide a valid email</p>
                 </div>
             </div>
+
+            <footer>
+                <p className="attributionMobile">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+                    Coded by <a href="https://zethdeluna.com" target="_blank" rel="noreferrer">Zeth De Luna</a>.
+                </p>
+            </footer>
         </div>
     )
 }
