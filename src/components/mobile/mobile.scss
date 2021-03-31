@@ -29,6 +29,7 @@
         width: 100vw;
         justify-self: center;
         align-items: center;
+        padding-bottom: 50px;
 
         #comingSoonMobile {
             font-size: 42px;
@@ -127,8 +128,8 @@
 
     footer {
         width: 100vw;
-        position: absolute;
-        top: 98%;
+        position: relative;
+        bottom: 0;
         font-size: 12px;
         font-weight: 300;
         color: hsl(0, 36%, 70%);
