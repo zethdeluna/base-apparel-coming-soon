@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshots
 
-![desktop screenshot](./src/images/base-apparel-desktop.png)
-![mobile screenshot](./src/images/base-apparel-mobile.png)
+![desktop screenshot](/src/images/base-apparel-desktop.png)
+![mobile screenshot](/src/images/base-apparel-mobile.png)
 
 ## My process
 
