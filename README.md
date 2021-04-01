@@ -30,7 +30,8 @@ Users should be able to:
 ### Screenshots
 
 ![desktop screenshot](https://raw.githubusercontent.com/zethdeluna/base-apparel-coming-soon/main/src/images/base-apparel-desktop-screenshot.png)
-![mobile screenshot](https://raw.githubusercontent.com/zethdeluna/base-apparel-coming-soon/main/src/images/base-apparel-mobile-screenshot.png | width=400)
+<!-- ![mobile screenshot](https://raw.githubusercontent.com/zethdeluna/base-apparel-coming-soon/main/src/images/base-apparel-mobile-screenshot.png) -->
+<img src="https://raw.githubusercontent.com/zethdeluna/base-apparel-coming-soon/main/src/images/base-apparel-mobile-screenshot.png" width="400">
 
 ## My process
 
