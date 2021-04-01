@@ -3,6 +3,7 @@ import './desktop.scss';
 import logo from '../../images/logo.svg';
 import heroDesktop from '../../images/hero-desktop.jpg';
 import iconError from '../../images/icon-error.svg';
+import iconArrow from '../../images/icon-arrow.svg'
 
 function Desktop() {
     const email = useRef();
@@ -43,13 +44,14 @@ function Desktop() {
                     soon
                     </h1>
                     <p id="message">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-                    <form id="form" ref={formRef}>
+                    <form name="email-form" id="form" ref={formRef}>
                     <input 
                         ref={email}
                         id="email"
+                        name="email"
                         type="text" 
                         placeholder="Email Address" />
-                    <button type="submit"><div id="arrow"></div></button>
+                    <button type="submit" name="submit"><img src={iconArrow} alt="button arrow"/></button>
                     <img className="errorIcon" ref={errorIcon} src={iconError} alt="error icon"/>
                     </form>
                     <p className="errorMessage" ref={errorMessage}>Please provide a valid email</p>
