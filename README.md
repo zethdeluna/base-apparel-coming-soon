@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshots
 
-![desktop screenshot](/src/images/base-apparel-desktop.png)
-![mobile screenshot](/src/images/base-apparel-mobile.png)
+![desktop screenshot](https://raw.githubusercontent.com/zethdeluna/base-apparel-coming-soon/main/src/images/base-apparel-desktop-screenshot.png)
+![mobile screenshot](https://raw.githubusercontent.com/zethdeluna/base-apparel-coming-soon/main/src/images/base-apparel-mobile-screenshot.png)
 
 ## My process
 
