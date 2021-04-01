@@ -45,27 +45,53 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+As I worked on this challenge, my favorite learning experience was figuring out how to implement a custom email validation message. At first, I built the "email validator" using vanilla JavaScript:
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+// Handle invalid email inputs
+const email = document.getElementById("email");
+const form = document.getElemenyById("form");
+const errorMessage = document.querySelector(".errorMessage");
+const errorIcon = document.querySelector(".errorIcon");
+
+form.addEventListener("submit", e => {
+    const emailInput = email.value;
+    if (emailInput) {
+        if (!(emailInput.includes("@") && emailInput.includes("."))) {
+            e.preventDefault();
+            errorMessage.classList.add("errorView");
+            errorIcon.classList.add("iconView");
+        }
+    } else {
+        e.preventDefault();
+        errorMessage.classList.add("errorView");
+        errorIcon.classList.add("iconView");
+    }
+});
+
+// Remove error message when the user clicks into the input box
+email.addEventListener("click", e => {
+    errorMessage.classList.remove("errorView");
+    errorIcon.classList.remove("iconView");
+});
+```
+
+What I did was I placed the error message and icon where they should appear if there is an invalid input, but hid those elements using CSS:
+
+```css
+.errorMessage, .errorIcon {
+    opacity: 0;
+    transition: all 500ms ease;
+}
+
+.errorView, .iconView {
+    opacity: 1;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Then, the JavaScript code would determine if the error message should be shown or not based on the conditions and the event listeners.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Since I used React to build the website, I converted the above JavaScript using React Hooks, which you will be able to find in my source code. The rest of the project relied mainly on basic knowledge of HTML and CSS, so I had lots of fun trying to figure out this custom email validation method.
 
 ### Continued development
 
